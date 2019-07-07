@@ -8,7 +8,7 @@ public class Calculator
         int operator;
         double answer;
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); //scanner imported to allow user input
 
         System.out.println("Enter first operand: ");
         num1 = scanner.nextDouble(); // This allows the user to input whichever double value they would like as the first operand
